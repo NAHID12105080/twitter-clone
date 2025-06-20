@@ -1,4 +1,4 @@
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/utils/supabase';
 import { TablesInsert } from '@/types/database.types';
 
 type PostInput = TablesInsert<'posts'>;
